@@ -32,11 +32,22 @@ Agora é a sua vez. Modifique o comando abaixo colocando o seu nome e o seu lanc
 favorito.
 Assim que você apertar Enter, o MongoDB vai criar automaticamente a coleção chamada
 alunos e salvar o seu registro dentro do banco criado no passo anterior:
+javascript
+db.alunos.insertOne({
+	nome: "Seu nome",
+	lanche_favorito: "Seu lanche favorito"
+})
 
 Passo 4: Ver o resultado final de toda a turma
 Depois que todos os colegas inserirem seus dados, rode o comando abaixo para ver a lista
 completa e conferir como o banco de dados foi estruturado:
-javascript
+alunos e salvar o seu registro dentro do banco criado no passo anterior:
+```javascript
+db.alunos.insertOne({
+	nome: "Seu nome",
+	lanche_favorito: "Seu lanche favorito"
+})
+```
 
 db.alunos.find().pretty()
 
