@@ -4,18 +4,23 @@ Monte o Nosso Banco de Lanches!
 
 Cada aluno será responsável por inserir o seu próprio nome e o seu lanche favorito no banco
 de dados da turma usando o terminal do GitHub Codespaces.
+
 Regra do Desafio: Nenhum lanche pode ser repetido! Combine com seus colegas antes de
 digitar para garantir que cada um escolha um lanche diferente.
+
 Como o MongoDB cria Bancos de Dados e Coleções?
 Diferente dos bancos tradicionais (SQL), no MongoDB você não precisa criar um banco de
 dados ou uma tabela (coleção) antes de usar.
+
 Criação do Banco: Quando você digita use nome_do_banco, o MongoDB apenas se
 prepara para entrar nele. Se o banco não existir, ele não é criado imediatamente. O MongoDB
 espera você inserir o primeiro dado para criá-lo de forma automática na memória.
+
 Criação da Coleção: O mesmo acontece com as coleções (tabelas). No momento em que
 você roda o comando de inserir um documento (db.nome_da_colecao.insertOne()), o
 MongoDB percebe que essa coleção não existe e a cria instantaneamente junto com o seu
 dado.
+
 Passo 1: Entrar no terminal do MongoDB
 No terminal do seu GitHub Codespaces, digite o comando abaixo e aperte Enter:
 bash
