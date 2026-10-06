@@ -4,6 +4,7 @@ Monte o Nosso Banco de Lanches!
 
 Cada aluno será responsável por inserir o seu próprio nome e o seu lanche favorito no banco
 de dados da turma usando o terminal do GitHub Codespaces.
+
 Regra do Desafio: Nenhum lanche pode ser repetido! Combine com seus colegas antes de
 digitar para garantir que cada um escolha um lanche diferente.
 
